@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Before you start
 
-Run `npm i jquery popper.js` 
+Run `npm i jquery` 
 
 ## Development server
 

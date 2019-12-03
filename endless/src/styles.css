@@ -92,7 +92,7 @@ p {
 /* You can add global styles to this file, and also import other style files */
 .el-parallax {
     background-image: url("../src/assets/images/photo-couch.jpg");
-    height: 600px;
+    height: 100vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
