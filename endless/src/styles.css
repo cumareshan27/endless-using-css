@@ -1,0 +1,244 @@
+body {
+    background-color: #f2f1ef;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-family: 'Lato',
+        sans-serif;
+    font-weight: 300;
+
+}
+
+h2 {
+    font-family: 'Lato',
+        sans-serif;
+    font-weight: 100;
+}
+
+p {
+    font-family: 'Lato',
+        sans-serif;
+
+}
+
+.logo {
+    padding-left: 200px;
+}
+
+/* .numbers {
+    font-size: 50pt;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.text-box {
+    height: 400px;
+    padding: 50px;
+
+} */
+
+/* .bg-color-green {
+    background-color: #50e3c2;
+}
+
+.bg-color-dark-gray {
+    background-color: #222222;
+}
+
+.text-color-green {
+    color: #50e3c2;
+}
+
+#button:hover {
+    background: rgb(36, 134, 128);
+}
+
+#button-submit {
+    background: #5ea12b;
+    transition: background 0.5s ease-in-out;
+} */
+/* .navbar {
+    padding: 0;
+} */
+
+/* Mobile first design */
+.el-navbar {
+    position: relative;
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 0;
+    background-color: #222222;
+}
+
+.el-container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.el-logo {
+    color: #50e3c2;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-size: 1.75rem;
+}
+
+/* You can add global styles to this file, and also import other style files */
+.el-parallax {
+    background-image: url("../src/assets/images/photo-couch.jpg");
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.el-banner-container {
+    padding: 15px;
+}
+
+.el-banner-section {
+    margin-top: 150px;
+}
+.el-banner-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.el-banner-small-text {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.el-banner-h1 {
+    color: #ffffff;
+    font-size: 34px;
+    line-height: 1.2;
+    font-weight: 300;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+
+.el-button-container {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.el-button {
+    cursor: pointer !important;
+    background-color: #50e3c2;
+    text-transform: uppercase;
+    border-radius: 50rem;
+    border: none;
+    padding: 5px 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.el-button:hover,
+.el-button:active,
+.el-button:focus {
+    background-color: #36a58c;
+    color: #ffffff;
+}
+
+.el-howitworks-container {
+    padding: 0 15px;
+    margin: 25px;
+}
+
+.el-howitworks-wrap {
+    padding: 25px 0;
+    text-align: center;
+}
+.el-howitwork-title {
+    font-size: 32px;
+    margin: auto;
+}
+
+.el-howitwork-numbers {
+    font-size: 50pt;
+    font-weight: 400;
+}
+
+.el-howitwork-subtitle {
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .el-container {
+        padding-right: 35px;
+        padding-left: 35px;
+    }
+    .el-banner-container {
+        padding: 35px;
+    }
+    .el-banner-section {
+        margin-top: 200px;
+        width: 400px;
+    }
+    .el-howitwork-wrap {
+        width: 400px;
+        margin: auto;
+    }
+}
+
+/* Large devices (laptops/desktops, 1024px and up) */
+@media only screen and (min-width: 1023px) {
+    .el-parallax {
+        height: 745px;
+    }
+    .el-container {
+        width: 1024px;
+        margin: auto;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .el-banner-container {
+        width: 1024px;
+        margin: auto;
+        padding: 35px 20px;
+    }
+    .el-banner-section {
+        margin-top: 335px;
+        width: 600px;
+    }
+    .el-banner-h1 {
+        font-size: 52px;
+        margin-bottom: 10px;
+    }
+    .el-banner-small-text {
+        font-size: 20px;
+    }
+    .el-button-container {
+        margin-top: 40px;
+    }
+    .text-width {
+        width: 475px;
+    }
+    .el-banner-wrap {
+        display: table;
+        width: 100%;
+    }
+    .el-howitworks-container {
+        width: 1024px;
+        margin: auto;
+    }
+    .el-howitwork-wrap {
+        display: table-cell;
+    }
+    .el-howitwork-title {
+        margin: 15px 0;
+    }
+    .el-howitwork-des {
+        padding: 0 10px;
+    }
+}

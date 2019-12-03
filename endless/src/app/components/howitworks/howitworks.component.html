@@ -1,0 +1,15 @@
+<div class="el-howitworks-container">
+    <div class="el-howitworks-wrap">
+        <div class="el-banner-wrap">
+            <h2 class="el-howitwork-title">How It works</h2>
+        </div>
+        <div class="el-banner-wrap">
+            <div class="el-howitwork-wrap" *ngFor="let data of result.data">
+                <div class="el-howitwork-numbers">0{{data.stepNumber}}</div>
+                <img src="../assets/images/stripe 1.png" alt="Green Strip">
+                <div class="el-howitwork-subtitle">{{data.stepNumber != 3 ? data.versionContent[0].title : data.versionContent[1].title}}</div>
+                <p class="el-howitwork-des">{{data.stepNumber != 3 ? data.versionContent[0].body : data.versionContent[1].body}}</p>
+            </div>
+        </div>
+    </div>
+
